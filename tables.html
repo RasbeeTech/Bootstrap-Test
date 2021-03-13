@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- meta viewport tag enables touch zooming and proper rendering on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Grid-System</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Bootstrap Test</h1>
+    <!-- table-responsive class enables horizontal scrolling on smaller devices-->
+    <div class="table-responsive{-sm|-md|-lg|-xl}"> <!-- Acts as the wrapper for the page content-->
+        <!-- use table classes to change styling:
+        .table-dark: inverted or dark table colors,
+        .table-striped: alternating zebra stripes,
+        .table-bordered: adds border to table,
+        .table-borderless: removes all borders,
+        .table-hover: highlights row when hovered over,
+        .table-sm: cuts table padding in half
+        -->
+        <table class="table table-striped table-bordered table-sm">
+            <!-- use table head classes to style:
+            .thead-light: light colored table heads,
+            .thead-dark: dark colored table heads,
+            -->
+            <thead class="thead-dark">
+                <tr>
+                    <th>Row</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- use table body classes to style:
+                .table-primary: blue color,
+                .table-secondary: grey color,
+                .table-success: green color,
+                .table-info: teal color,
+                .table-warning: yellow color,
+                .table-danger: red color,
+                .table-active: light grey color,
+                .table-light: light color,
+                .table-dark: dark color
+                -->
+                <tr class="table-primary">
+                    <td>1</td>
+                    <td>Clark</td>
+                    <td>Kent</td>
+                    <td>clarkkent@mail.com</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>2</td>
+                    <td>John</td>
+                    <td>Carter</td>
+                    <td>johncarter@mail.com</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>3</td>
+                    <td>Peter</td>
+                    <td>Parker</td>
+                    <td>peterparker@mail.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

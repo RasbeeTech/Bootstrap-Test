@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- meta viewport tag enables touch zooming and proper rendering on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Grid-System</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Icons and font styling CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Bootstrap Test</h1>
+    <div class="container-fluid"> <!-- Acts as the wrapper for the page content-->
+        <!--  form controls default: left aligned-->
+        <!-- <input>, <textarea>, and <select> require the class .form-control for general styling-->
+        <form>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label class="form-check-label"><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        <hr>
+        <!-- horizontal form layout example -->
+        <form>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <label class="form-check-label"><input type="checkbox"> Remember me</label>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <!-- inline form layout -->
+        <form class="form-inline">
+            <div class="form-group mr-2">
+                <label class="sr-only" for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <div class="form-group mr-2">
+                <label class="sr-only" for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+            <div class="form-group mr-2">
+                <label><input type="checkbox" class="mr-1"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        <hr>
+        <!-- static form layout -->
+        <form>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="inputEmail" value="peterparker@example.com">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <!-- Vertically stacked checkboxes -->
+        <!-- .d-block class for vertically aligning -->
+        <div class="form-group">
+            <label class="d-block">
+                <input type="checkbox" class="mr-1" name="sports"> Cricket
+            </label>
+            <label class="d-block">
+                <input type="checkbox" class="mr-1" name="sports"> Football
+            </label>
+            <label class="d-block">
+                <input type="checkbox" class="mr-1" name="sports"> Tennis
+            </label>
+        </div>
+        <!-- Vertically stacked radios -->
+        <div class="form-group">
+            <label class="d-block">
+                <input type="radio" class="mr-1" name="gender"> Male
+            </label>
+            <label class="d-block">
+                <input type="radio" class="mr-1" name="gender"> Female
+            </label>
+        </div>
+        <hr>
+        <!-- Inline checkboxes -->
+        <div class="form-group">
+            <label class="mr-3">
+                <input type="checkbox" class="mr-1" name="sports"> Cricket
+            </label>
+            <label class="mr-3">
+                <input type="checkbox" class="mr-1" name="sports"> Football
+            </label>
+            <label class="mr-3">
+                <input type="checkbox" class="mr-1" name="sports"> Tennis
+            </label>
+        </div>
+        <!-- Inline radios -->
+        <div class="form-group">
+            <label class="mr-3">
+                <input type="radio" class="mr-1" name="gender"> Male
+            </label>
+            <label class="mr-3">
+                <input type="radio" class="mr-1" name="gender"> Female
+            </label>
+        </div>
+        <!-- disable form controls -->
+        <!-- add 'Disabled' to attribute -->
+        <!-- add 'readonly' attribute -->
+        <input type="text" class="form-control mb-2" placeholder="Disabled input" disabled>
+        <textarea class="form-control mb-2" placeholder="Disabled textarea" disabled></textarea>
+        <select id="disabledSelect" class="form-control" disabled>
+            <option>Disabled select</option>
+        </select>
+        <hr>
+        <!-- column sizing -->
+        <div class="form-row">
+            <div class="form-group col-sm-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-sm-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                    <option>Select</option>
+                </select>
+            </div>
+            <div class="form-group col-sm-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+        </div>
+        <!-- height sizing -->
+        <form>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" placeholder="Large input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" placeholder="Default input">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-sm" placeholder="Small input">
+                </div>
+            </div>
+            <hr>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label col-form-label-lg">State</label>
+                <div class="col-sm-10">
+                    <select class="form-control form-control-lg">
+                        <option>Large select</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">State</label>
+                <div class="col-sm-10">
+                    <select class="form-control">
+                        <option>Default select</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label col-form-label-sm">State</label>
+                <div class="col-sm-10">
+                    <select class="form-control form-control-sm">
+                        <option>Small select</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <!-- help text around form controls -->
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control">
+            <!-- help text can be put in-line with just <small> tag -->
+            <small class="form-text text-muted">
+                Your password must be 8-20 characters long, contain letters, numbers and special characters, but must not contain spaces.
+            </small>
+        </div>
+        <hr>
+        <!-- form validation -->
+        <!-- applied with CSS :invalid and :valid pseudo-classes -->
+        <form class="needs-validation" novalidate>
+            <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                <div class="invalid-feedback">Please enter your password to continue.</div>
+            </div>
+            <div class="form-group">
+                <label class="form-check-label"><input type="checkbox"> Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        <!-- javascript code to test validation above ^ -->
+        <script>
+            // Self-executing function
+            (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+        </script>
+        <hr>
+        <!-- full form example -->
+        <!-- supports all html5 input types including:  datetime, number, email, url, search, range, color, and url-->
+        <form>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="firstName">First Name:</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="lastName">Last Name:</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="inputEmail">Email Address:</label>
+            <div class="col-sm-9">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email Address" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="phoneNumber">Mobile Number:</label>
+            <div class="col-sm-9">
+                <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Date of Birth:</label>
+            <div class="col-sm-3">
+                <select class="custom-select">
+                    <option>Date</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="custom-select">
+                    <option>Month</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="custom-select">
+                    <option>Year</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="postalAddress">Postal Address:</label>
+            <div class="col-sm-9">
+                <textarea rows="3" class="form-control" id="postalAddress" placeholder="Postal Address" required></textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="ZipCode">Zip Code:</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" id="ZipCode" placeholder="Zip Code" required>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-3 col-form-label">Gender:</label>
+            <div class="col-sm-9 mt-2">
+                <label class="mb-0 mr-3">
+                    <input type="radio" class="mr-1" name="gender"> Male
+                </label>
+                <label class="mb-0 mr-3">
+                    <input type="radio" class="mr-1" name="gender"> Female
+                </label>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-9 offset-sm-3">
+                <label class="checkbox-inline">
+                    <input type="checkbox" class="mr-1" value="agree"> I agree to the <a href="#">Terms and Conditions</a>.
+                </label>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-9 offset-sm-3">
+                <input type="submit" class="btn btn-primary" value="Submit">
+                <input type="reset" class="btn btn-secondary" value="Reset">
+            </div>
+        </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
