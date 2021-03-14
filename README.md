@@ -65,8 +65,8 @@ The latest Bootstrap 4 version introduces the new mobile-first flexbox grid syst
 
 2. ## Fixed-Layout
     With Bootstrap 4 you can still create web page layouts based on fixed number of pixels, however the container width vary depending on the viewport width and the layout is responsive too.
-<details>
-<summary>Code</summary>
+    <details>
+    <summary>Code</summary>
 
 ```html
 <!DOCTYPE html>
@@ -92,6 +92,7 @@ The latest Bootstrap 4 version introduces the new mobile-first flexbox grid syst
 </body>
 </html>
 ```
+
 </details>
 
 3. ## Fluid-Layout
