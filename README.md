@@ -56,7 +56,7 @@ Create a Bootstrap 4 reference while practicing web-design.
 ## Dropdowns
 ## Alerts
 ## Accordian
-## Carousal
+## 1. Carousal
 
 ### Details
 The tutorial on [www.tutorialrepublic.com](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/) to create a web application.   
