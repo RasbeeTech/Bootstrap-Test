@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- meta viewport tag enables touch zooming and proper rendering on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pagination</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Icons and font styling CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Pagination</h1>
+    <div class="container-fluid"> <!-- Acts as the wrapper for the page content-->
+      <!-- pagination -->
+      <nav>
+          <!--
+          sizing can be added by:
+          .pagination-lg,
+          .pagination-sm
+
+          alignment classes:
+          .justify-content-center,
+          .justify-content-end
+          -->
+          <ul class="pagination">
+              <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+              <li class="page-item"><a href="#" class="page-link">1</a></li>
+              <li class="page-item"><a href="#" class="page-link">2</a></li>
+              <li class="page-item"><a href="#" class="page-link">3</a></li>
+              <li class="page-item"><a href="#" class="page-link">4</a></li>
+              <li class="page-item"><a href="#" class="page-link">5</a></li>
+              <li class="page-item"><a href="#" class="page-link">Next</a></li>
+          </ul>
+      </nav>
+      <!-- disable -->
+      <nav>
+          <ul class="pagination">
+              <li class="page-item disabled"><a href="#" class="page-link" tabindex="-1">Previous</a></li>
+              <li class="page-item active"><a href="#" class="page-link">1</a></li>
+              <li class="page-item"><a href="#" class="page-link">2</a></li>
+              <li class="page-item"><a href="#" class="page-link">3</a></li>
+              <li class="page-item"><a href="#" class="page-link">4</a></li>
+              <li class="page-item"><a href="#" class="page-link">5</a></li>
+              <li class="page-item"><a href="#" class="page-link">Next</a></li>
+          </ul>
+      </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
