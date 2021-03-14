@@ -5,7 +5,7 @@ Create a Bootstrap 4 reference while practicing web-design.
 
 # Bootstrap 4.3.1
 ## Content
-[Carousal](#Carousal)  
+1. [Carousal](#Carousal)  
 [Grid-System](#Grid-System)  
 [Fixed-Layout](#Fixed-Layout)  
 [Fluid-Layout](#Fluid-Layoutl)  
