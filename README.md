@@ -65,9 +65,7 @@ Create a Bootstrap 4 reference while practicing web-design.
     With Bootstrap 4 you can still create web page layouts based on fixed number of pixels, however the container width vary depending on the viewport width and the layout is responsive too.
     <details>
         <summary>Code</summary>
-        <p>
         
-        ```html
         ```
         <!DOCTYPE html>
         <html lang="en">
@@ -93,7 +91,6 @@ Create a Bootstrap 4 reference while practicing web-design.
         </body>
         </html>
         
-        </p>
     </details>
 
 3. ## Fluid-Layout
