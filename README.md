@@ -66,7 +66,7 @@ Create a Bootstrap 4 reference while practicing web-design.
     <details>
         <summary>Code</summary>
 
-        ```html
+        ```HTML
         <!DOCTYPE html>
         <html lang="en">
         <head>
