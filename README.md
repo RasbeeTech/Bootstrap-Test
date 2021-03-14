@@ -50,32 +50,32 @@ Create a Bootstrap 4 reference while practicing web-design.
 11. ## Cards
     ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/cards.jpg)  
 12. ## Icons
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/icons.jpg)  
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/icons.jpeg)  
 13. ## Navbars
     ![navbars.jpeg](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/navbars.jpg)  
 14. ## Pagination
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/pagination.jpg)  
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/pagination.jpeg)  
 15. ## Badges
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/badges.jpg)  
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/badges.jpeg)  
 16. ## Progress-Bars
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/progress-bar.jpg)  
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/progress-bar.jpeg)  
 17. ## Spinners
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/spinners.jpg)  
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/spinners.jpeg)  
 18. ## Jumbotron
     ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/jumbotron.jpg)  
 19. ## Helper-Classes
     ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/helper-classes.jpg)  
 
 20. ## Modals
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/modals.jpg)  
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/modals.jpeg)  
 21. ## Dropdowns
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/dropdown.jpg)  
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/dropdown.jpeg)  
 22. ## Alerts
     ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/alerts.jpg)  
 23. ## Accordian
     ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/accordian.jpg)  
 24. ## Carousal
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/typography.jpg)  
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/carousal.jpeg)  
 
 ### Details
 The tutorial on [www.tutorialrepublic.com](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/) to create a web application.   
