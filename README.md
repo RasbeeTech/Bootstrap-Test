@@ -66,33 +66,32 @@ Create a Bootstrap 4 reference while practicing web-design.
     <details>
         <summary>Code</summary>
 
-        <pre>
-            <code>
-                <!DOCTYPE html>
-                <html lang="en">
-                <head>
-                <meta charset="utf-8">
-                <!-- meta viewport tag enables touch zooming and proper rendering on mobile devices-->
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                <title>Bootstrap Test</title>
-                <!-- Bootstrap CSS file -->
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-                <!-- Icons and font styling CSS file -->
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-                </head>
-                <body>
-                <h1>Bootstrap Test</h1>
-                <div class="container-fluid"> <!-- Acts as the wrapper for the page content-->
-                
-                </div>
-                <-- Place JS at end for perforomance -->
-                <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-                </body>
-                </html>
-            <code>
-        </pre>
+        ```html
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <!-- meta viewport tag enables touch zooming and proper rendering on mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Bootstrap Test</title>
+        <!-- Bootstrap CSS file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <!-- Icons and font styling CSS file -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+        <h1>Bootstrap Test</h1>
+        <div class="container-fluid"> <!-- Acts as the wrapper for the page content-->
+        
+        </div>
+        <-- Place JS at end for perforomance -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        </body>
+        </html>
+        ```
+        
     </details>
 3. ## Fluid-Layout
     <details>
