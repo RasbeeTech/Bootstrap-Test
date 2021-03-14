@@ -59,14 +59,15 @@ Include the following code to take advantage of Bootstrap CSS/JS
 
 ## Content
 1. ## Grid-System
-    The latest Bootstrap 4 version introduces the new mobile-first flexbox grid system that appropriately scales up to 12 columns as the device or viewport size increases.
-    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/grid-system-sizing-table.png)  
+
+The latest Bootstrap 4 version introduces the new mobile-first flexbox grid system that appropriately scales up to 12 columns as the device or viewport size increases.
+![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/grid-system-sizing-table.png)  
+
 2. ## Fixed-Layout
-    With Bootstrap 4 you can still create web page layouts based on fixed number of pixels, however the container width vary depending on the viewport width and the layout is responsive too.
-    <details>
-        <summary>Code</summary>
-        
-        ```html
+With Bootstrap 4 you can still create web page layouts based on fixed number of pixels, however the container width vary depending on the viewport width and the layout is responsive too.
+<details>
+<summary>Code</summary>
+```html
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -89,9 +90,8 @@ Include the following code to take advantage of Bootstrap CSS/JS
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         </body>
         </html>
-        ```
-        
-    </details>
+```
+</details>
 
 3. ## Fluid-Layout
 
