@@ -6,7 +6,7 @@ Create a Bootstrap 4 reference while practicing web-design.
 # Bootstrap 4.3.1
 ## Getting Started  
 Include the following code to take advantage of Bootstrap CSS/JS  
-    <pre><code>
+```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -29,8 +29,8 @@ Include the following code to take advantage of Bootstrap CSS/JS
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </body>
     </html>
-    </code></pre>
-    
+```  
+
 ## Table  
 1. [Grid-System](#Grid-System)  
 2. [Fixed-Layout](#Fixed-Layout)  
