@@ -5,7 +5,7 @@ Create a Bootstrap 4 reference while practicing web-design.
 
 # Bootstrap 4.3.1
 ## Getting Started  
-Include the following code to take advantage of Bootstrap CSS/JS
+Include the following code to take advantage of Bootstrap CSS/JS  
     ```html
     <!DOCTYPE html>
     <html lang="en">
@@ -30,6 +30,7 @@ Include the following code to take advantage of Bootstrap CSS/JS
     </body>
     </html>
     ```
+    
 ## Table  
 1. [Grid-System](#Grid-System)  
 2. [Fixed-Layout](#Fixed-Layout)  
@@ -65,7 +66,7 @@ Include the following code to take advantage of Bootstrap CSS/JS
     <details>
         <summary>Code</summary>
         
-        ```
+        ```html
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -81,7 +82,6 @@ Include the following code to take advantage of Bootstrap CSS/JS
         <body>
         <h1>Bootstrap Test</h1>
         <div class="container-fluid"> <!-- Acts as the wrapper for the page content-->
-        
         </div>
         <-- Place JS at end for perforomance -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
