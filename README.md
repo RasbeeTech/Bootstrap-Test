@@ -68,6 +68,7 @@ Create a Bootstrap 4 reference while practicing web-design.
         <p>
         
         ```html
+        ```
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -91,22 +92,13 @@ Create a Bootstrap 4 reference while practicing web-design.
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         </body>
         </html>
-        ```
+        
         </p>
     </details>
+
 3. ## Fluid-Layout
-    <details>
-        <summary>Code</summary>
-        <pre>
-        <code>
-        <code>
-        </pre>
-    </details>
 
 4. ## Responsive-Layout
-    <details>
-        <summary>Code</summary>
-    <details>
 
 5. ## Typography
     ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/typography.jpg)  
