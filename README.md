@@ -4,6 +4,33 @@
 Create a Bootstrap 4 reference while practicing web-design.
 
 # Bootstrap 4.3.1
+## Getting Started  
+    Include the following code to take advantage of Bootstrap CSS/JS
+    ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!-- meta viewport tag enables touch zooming and proper rendering on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap Test</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- Icons and font styling CSS file -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <h1>Bootstrap Test</h1>
+    <div class="container-fluid"> <!-- Acts as the wrapper for the page content-->
+    
+    </div>
+    <-- Place JS at end for perforomance -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+    ```
 ## Table  
 1. [Grid-System](#Grid-System)  
 2. [Fixed-Layout](#Fixed-Layout)  
@@ -30,11 +57,52 @@ Create a Bootstrap 4 reference while practicing web-design.
 23. [Accordian](#Accordian)  
 24. [Carousal](#Carousal)  
 
-## Content  
+## Content
 1. ## Grid-System
+    The latest Bootstrap 4 version introduces the new mobile-first flexbox grid system that appropriately scales up to 12 columns as the device or viewport size increases.
+    ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/grid-system-sizing-table.png)  
 2. ## Fixed-Layout
+    With Bootstrap 4 you can still create web page layouts based on fixed number of pixels, however the container width vary depending on the viewport width and the layout is responsive too.
+    <details>
+        <summary>Code</summary>
+
+        ```html
+        ```html
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <!-- meta viewport tag enables touch zooming and proper rendering on mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Bootstrap Test</title>
+        <!-- Bootstrap CSS file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <!-- Icons and font styling CSS file -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+        <h1>Bootstrap Test</h1>
+        <div class="container-fluid"> <!-- Acts as the wrapper for the page content-->
+        
+        </div>
+        <-- Place JS at end for perforomance -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        </body>
+        </html>
+        ```
+    <details>
 3. ## Fluid-Layout
+    <details>
+        <summary>Code</summary>
+    <details>
+
 4. ## Responsive-Layout
+    <details>
+        <summary>Code</summary>
+    <details>
+
 5. ## Typography
     ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/typography.jpg)  
 6. ## Tables
@@ -78,4 +146,4 @@ Create a Bootstrap 4 reference while practicing web-design.
     ![alt text](https://github.com/RasbeeTech/Bootstrap-Test/blob/main/images/html%20prints/carousal.jpeg)  
 
 ### Details
-The tutorial on [www.tutorialrepublic.com](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/) to create a web application.   
+Created with the help of [www.tutorialrepublic.com](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/).
