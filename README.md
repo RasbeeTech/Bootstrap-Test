@@ -6,10 +6,36 @@ Create a Bootstrap 4 reference while practicing web-design.
 # Bootstrap 4.3.1
 ## Content
 [Carousal](#Carousal)
-## Grid System
-## Fixed Layout
-## Fluid Layout
-## Responsive Layout
+[Grid-System](#Grid-System)
+[Fixed-Layout](#Fixed-Layout)
+[Fluid-Layout](#Fluid-Layoutl)
+[Responsive-Layout](#Responsive-Layout)
+[Typography](#Typography)
+[Tables](#Tables)
+[Lists](#Lists)
+[Forms](#Forms)
+[Buttons](#Buttons)
+[Images](#Images)
+[Cards](#Cards)
+[Icons](#Icons)
+[Navbars](#Navbars)
+[Pagination](#Pagination)
+[Badges](#Badges)
+[Progress-Bars](#Progress-Bars)
+[Spinners](#Spinners)
+[Carousal](#Carousal)
+[Jumbotron](#Jumbotron)
+[Helper-Classes](#Helper-Classes)
+[Modals](#Modals)
+[Dropdowns](#Dropdowns)
+[Alerts](#Alerts)
+[Accordian](#Accordian)
+[Carousal](#Carousal)
+
+## Grid-System
+## Fixed-Layout
+## Fluid-Layout
+## Responsive-Layout
 ## Typography
 ## Tables
 ## Lists
@@ -18,10 +44,10 @@ Create a Bootstrap 4 reference while practicing web-design.
 ## Images
 ## Cards
 ## Icons
-## Navs/Navbars
+## Navbars
 ## Pagination
 ## Badges
-## Progress Bars
+## Progress-Bars
 ## Spinners
 ## Jumbotron
 ## Helper-Classes
